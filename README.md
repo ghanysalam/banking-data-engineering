@@ -128,12 +128,25 @@ banking-modern-datastack/
 
 ---
 
+### **7. Data Vizualization**  
+The final output of the Gold layer is consumed by a Banking Dashboard to provide actionable business insights:
+- **Operational KPIs**: Monitoring total customers, accounts, and transaction volume
+- **Transaction Analysis**: Visualizing the proportion of Withdrawals, Transfers, and Deposits to understand liquidity flow.
+- **Top Performers**: Identifying high-value customers and accounts based on total transaction amounts. 
+
+<img width="5647" height="3107" alt="Architecture" src="https://private-user-images.githubusercontent.com/69398501/581575276-433f5837-68ad-4b4e-be1a-e1fccc74bf11.jpg?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NzY3OTYyNTYsIm5iZiI6MTc3Njc5NTk1NiwicGF0aCI6Ii82OTM5ODUwMS81ODE1NzUyNzYtNDMzZjU4MzctNjhhZC00YjRlLWJlMWEtZTFmY2NjNzRiZjExLmpwZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjA0MjElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYwNDIxVDE4MjU1NlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTdiZjVhNGRhODdkYzQzZTk5Mzc0MmFiOTNlNDgxMjlkOGVkYjAyZjRhMDQwNzlkZDRkNWE1ZDgxMTllNTc1MTkmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JnJlc3BvbnNlLWNvbnRlbnQtdHlwZT1pbWFnZSUyRmpwZWcifQ.VTa7kHWphzRrqP1AEJB2k6UORwzDxaX7lXs3m_HLkNQ" />
+
+
+---
+
+
 ## 📊 Final Deliverables  
 - **Automated CDC pipeline** from Postgres → Snowflake  
 - **DBT models** (facts, dimensions, snapshots)  
-- **Orchestrated DAGs in Airflow**  
+- **Orchestrated DAGs in Airflow** 
 - **Synthetic banking dataset** for demos  
-- **CI/CD workflows** ensuring reliability  
+- **CI/CD workflows** ensuring reliability
+- **Interactive Banking Dashboard** High-level KPIs, transaction trends, and account rankings
 
 ---
 
