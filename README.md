@@ -20,7 +20,7 @@ We simulate **customer, account, and transaction data**, stream changes in real 
 
 ## 🏗️ Architecture  
 
-<img width="5647" height="3107" alt="Architecture" src="https://private-user-images.githubusercontent.com/69398501/581359207-9d968c71-110e-4c99-8129-b8d850112a56.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NzY3ODAwODcsIm5iZiI6MTc3Njc3OTc4NywicGF0aCI6Ii82OTM5ODUwMS81ODEzNTkyMDctOWQ5NjhjNzEtMTEwZS00Yzk5LTgxMjktYjhkODUwMTEyYTU2LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjA0MjElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYwNDIxVDEzNTYyN1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTk4NDc4NGQ0NzBjZjQ3YWJlNzI1YjgwMmRkYzI3YzJhOWFiOWVjN2QwMWY3NWJhNmIzYTkyMzUxZDJmNjc4MjYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JnJlc3BvbnNlLWNvbnRlbnQtdHlwZT1pbWFnZSUyRnBuZyJ9.EVTq9bbSGYogg4qObK3XHhSBv62TWuGjhphB-KiCKwQ" />
+![Architecture](assets/architecture.jpg)
 
 
 **Pipeline Flow:**
@@ -134,7 +134,7 @@ The final output of the Gold layer is consumed by a Banking Dashboard to provide
 - **Transaction Analysis**: Visualizing the proportion of Withdrawals, Transfers, and Deposits to understand liquidity flow.
 - **Top Performers**: Identifying high-value customers and accounts based on total transaction amounts. 
 
-<img width="5647" height="3107" alt="Architecture" src="https://private-user-images.githubusercontent.com/69398501/581578006-73b2871f-50af-4788-ad11-cc6376d127ec.jpg?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NzY3OTY2NDEsIm5iZiI6MTc3Njc5NjM0MSwicGF0aCI6Ii82OTM5ODUwMS81ODE1NzgwMDYtNzNiMjg3MWYtNTBhZi00Nzg4LWFkMTEtY2M2Mzc2ZDEyN2VjLmpwZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjA0MjElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYwNDIxVDE4MzIyMVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTdiYjIxNTg5NzZkNzVhMTRkZTU0MzBlZDYyMWI2YWZlODQ1ZTFjODAxOTE3YWRkZjI1YTk3ZWRkYzlkZWE2ZTAmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JnJlc3BvbnNlLWNvbnRlbnQtdHlwZT1pbWFnZSUyRmpwZWcifQ.-E7pZVrSitmgr0DIkfDl22evmRda8SeqU0Rm7-I2Yc4" />
+![Banking Dashboard](assets/dashboard.jpg)
 
 
 ---
