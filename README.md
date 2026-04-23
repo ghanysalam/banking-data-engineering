@@ -20,7 +20,7 @@ We simulate **customer, account, and transaction data**, stream changes in real 
 
 ## 🏗️ Architecture  
 
-![Architecture](assets/Data Pipeline Architecture.png)
+![Architecture](assets/Data-Pipeline-Architecture.png)
 
 
 **Pipeline Flow:**
@@ -134,7 +134,7 @@ The final output of the Gold layer is consumed by a Banking Dashboard to provide
 - **Transaction Analysis**: Visualizing the proportion of Withdrawals, Transfers, and Deposits to understand liquidity flow.
 - **Top Performers**: Identifying high-value customers and accounts based on total transaction amounts. 
 
-![Banking Dashboard](assets/Data Vizualization.jpg)
+![Banking Dashboard](assets/Data-Vizualization.jpg)
 
 
 ---
